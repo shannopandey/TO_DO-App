@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+   
+}
+section article form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.save-button{
+    background-color: greenyellow;
+    height: 4vh;
+}
+.add-btn{
+    background-color: greenyellow;
+    height: 4vh;
+}
+.Text-area{
+    background-color: rgb(222, 252, 177);
+    width: 40vw;
+    height: 20vh;
+    font-size: 30px;
+}
